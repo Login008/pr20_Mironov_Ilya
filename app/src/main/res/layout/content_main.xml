@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:layout_width="300sp" android:layout_height="50sp" android:text="СТАНДАРТНЫЙ SNACKBAR" android:onClick="standart"> </Button>
+    <Button android:layout_width="300sp" android:layout_height="50sp" android:text="SNACKBAR С КНОПКОЙ" android:onClick="withButton"> </Button>
+    <Button android:layout_width="300sp" android:layout_height="50sp" android:text="НЕСТАНДАРТНЫЙ SNACKBAR" android:onClick="nonstandart"> </Button>
+</LinearLayout>
